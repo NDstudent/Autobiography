@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdPage">
+
+    <TextView
+        android:id="@+id/page3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="- 3 -"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/content3_2"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="      歡畫畫，曾經畫過動漫仿畫、骨架素描、完整風景圖等等，全部都是日系漫畫風格。其中最愛畫自創的動漫人物畫，因為就像創造出一個活生生的人一樣，充滿靈魂。這些都是畫在紙上的，有著自己的作品集，目前正在練習電繪，朝著偉大畫手之路前進。 "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/content3_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="-20dp"
+        android:text="喜"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toStartOf="@+id/content3_2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/manga_girl"
+        android:layout_width="166dp"
+        android:layout_height="266dp"
+        android:layout_marginTop="256dp"
+        android:layout_marginEnd="260dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/manga_girl" />
+
+    <ImageView
+        android:id="@+id/net_points"
+        android:layout_width="117dp"
+        android:layout_height="447dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="236dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/net_points" />
+
+    <ImageView
+        android:id="@+id/manga_boy"
+        android:layout_width="184dp"
+        android:layout_height="414dp"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="356dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/manga_boy" />
+
+    <Button
+        android:id="@+id/page3_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="32dp"
+        android:onClick="forthPage"
+        android:text="觀看我的優點"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:rippleColor="#00BCD4" />
+
+    <Button
+        android:id="@+id/page3_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="32dp"
+        android:onClick="secondPage"
+        android:text="前面說啥"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#00BCD4" />
+
+    <ImageView
+        android:id="@+id/manga_girl2"
+        android:layout_width="141dp"
+        android:layout_height="197dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="-5dp"
+        app:layout_constraintBottom_toTopOf="@+id/page3_2"
+        app:layout_constraintEnd_toStartOf="@+id/manga_boy"
+        app:srcCompat="@drawable/manga_girl2" />
+
+    <ImageView
+        android:id="@+id/manga_girl3"
+        android:layout_width="156dp"
+        android:layout_height="387dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/manga_girl3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

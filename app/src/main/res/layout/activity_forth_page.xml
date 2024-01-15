@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForthPage">
+
+    <TextView
+        android:id="@+id/page4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="- 4 -"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/content4_2"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="100dp"
+        android:text="      優的優點 我是個很優的地球男性，我有很多優點。第一個優點應該也感覺到了，就是自信感爆棚。有毅力，有耐力，做事較能持之以恆，但不會埋頭苦幹，而是找尋最好的方法，有效率解決問題。 "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/content4_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="-20dp"
+        android:text="超"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toStartOf="@+id/content4_2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/content4_3"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="8dp"
+        android:text="也因如此，我的那些興趣也持續好幾年了，日積月累，興趣也變成我的優點、專長。"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/content4_2" />
+
+    <TextView
+        android:id="@+id/content4_4"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="8dp"
+        android:text="樂觀，與其說樂觀，不如說思想較特殊，能以不同的觀點與想法解析、思考問題。"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/content4_3" />
+
+    <TextView
+        android:id="@+id/content4_5"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="8dp"
+        android:text="個人特質是個充滿個人思想但很隨和的黑暗大天蠍。平常是個安靜的人，經過哪裡都悄無聲息，鬼影來去無影蹤，燈火冥滅起陰風。但混熟之後，會發現我的個性就跟高雄的氣溫一樣熱情，想要在溫暖的35度的大中午邀我出去玩都會奉陪的那種熱情。"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/content4_4" />
+
+    <ImageView
+        android:id="@+id/think"
+        android:layout_width="138dp"
+        android:layout_height="404dp"
+        android:layout_marginTop="336dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/think" />
+
+    <ImageView
+        android:id="@+id/strong"
+        android:layout_width="68dp"
+        android:layout_height="385dp"
+        android:layout_marginBottom="476dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/strong" />
+
+    <Button
+        android:id="@+id/page4_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="32dp"
+        android:onClick="fifthPage"
+        android:text="真是個酷傢伙"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:rippleColor="#00BCD4" />
+
+    <Button
+        android:id="@+id/page4_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="32dp"
+        android:onClick="thirdPage"
+        android:text="前面說啥"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#00BCD4" />
+</androidx.constraintlayout.widget.ConstraintLayout>
